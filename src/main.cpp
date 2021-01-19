@@ -9,6 +9,9 @@
  (which is also the TXD pin; so we cannot use Serial.print() at the same time)
 */
 
+#include <ESP8266WiFi.h>            // we need wifi to get internet access
+#include <time.h>                   // time() ctime()
+
 // These variables store the flash pattern
 // and the current state of the LED
 
